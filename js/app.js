@@ -1,9 +1,6 @@
 
 
 
-//TODO: Create a gitignore file and make sure that node_modules is in it so the repo doesn't store or track taht folder.
-//TODO: run npm init in my folder
-//TODO: Install express and pug (maybe others?) and save as dependancies
 /*TODO: Take/Add the following to imgs folder:
     - A professional profile pic | 550px by 350px
     - Project Screenshots at least two each:
