@@ -7,6 +7,7 @@
         - A main shot for the landing page | Square 550px by 550px
         - Between one and three images that can be any dimensions but work
         well in this project as landscape images | 1200px by 550px
+These are waiting for resizing in the Pics of Projecs folder on my desktop
 */
 /*TODO: Add project data:
     - Create a data.json file at the root directory.
