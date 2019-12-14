@@ -32,7 +32,7 @@ const app = express();
 app.set('view engine', 'pug');
 app.use(bodyParser.urlencoded({ extended: false}));
 //serving my static files
-app.use('static', express.static('public'));
+app.use('/static', express.static('public'));
 app.use(mainRoutes);
 app.use(errorHandling);
 

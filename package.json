@@ -2,7 +2,7 @@
   "name": "Static-Node.js-Express-Site-Project-6",
   "version": "1.0.0",
   "description": "Megan Katherine O'Brien's Static Node.js and Express Site Project 6 as a TeamTreehouse FullStack JavaScript TalentPath Student",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
