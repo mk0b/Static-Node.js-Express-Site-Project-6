@@ -21,6 +21,7 @@
 
 //app.js requirements including other files I created to use in app.js
 const express = require('express');
+const bodyParser = require('body-parser');
 const mainRoutes = require('./routes');
 const errorHandling = require('./routes/errors');
 
@@ -29,10 +30,11 @@ const app = express();
 
 //Setting and using some items for the app.
 app.set('view engine', 'pug');
+app.use(bodyParser.urlencoded({ extended: false}));
 //serving my static files
 app.use('static', express.static('public'));
 app.use(mainRoutes);
-//app.use(errorHandling);
+app.use(errorHandling);
 
 //Setting up Server
 app.listen(3000, () => {

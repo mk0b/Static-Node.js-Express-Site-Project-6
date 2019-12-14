@@ -14,3 +14,12 @@
 //error.message
 //error.status
 //error.stack
+
+
+const express = require('express');
+const router = express.Router();
+
+
+
+//This allows us to export and use in app.js | Keep at bottom
+module.exports = router;

@@ -3,10 +3,10 @@
 //Setting reqs for this file
 const express = require('express');
 const router = express.Router();
-const {data} = require('../data.json');
+const data = require('../data.json');
 //ES6 Way of saying projects = data.project
-//const {projects} = data;
-console.log(data);
+const {projects} = data;
+console.log(projects);
 //TODO: Figure out why data is coming through as undefined.
 
 /* TODO: Setup your server, routes and middleware
