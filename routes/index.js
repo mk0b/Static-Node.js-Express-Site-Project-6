@@ -6,10 +6,9 @@ const router = express.Router();
 const data = require('../data.json');
 //ES6 Way of saying projects = data.project
 const {projects} = data;
-console.log(projects);
-//TODO: Figure out why data is coming through as undefined.
 
-/* TODO: Setup your server, routes and middleware
+
+/* TODO: Setup your routes and middleware
     - Set your routes
         - index route (/) to render the "Home page with the locals set to data.projects"
         - An "about" route (/about) to render the "About page"
@@ -19,6 +18,11 @@ console.log(projects);
         to the pug Template.
 */
 
+//routes
+
+router.get('/', (req, res) => {
+    res.render('index');
+});
 
 
 //This allows us to export and use in app.js | Keep at bottom
