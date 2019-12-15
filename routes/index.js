@@ -35,6 +35,10 @@ router.get('/project', (req, res) => {
     res.render('project', { projects });
 });
 
+//TODO: Use the project.js file again and make each project/id a route 
+//load the same pug tempalte and in the pug template just do an if statment for
+//if id = blarg then show blarg data. or if index because it's an arry of projects.
+
 
 //This allows us to export and use in app.js | Keep at bottom
 module.exports = router;
