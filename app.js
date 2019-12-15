@@ -6,6 +6,8 @@
 //TODO: Add a route for /skills or something and take TTH data and display my profile info?
 //TODO: Fix how the 550 by 550 square index project images look.
 //TODO: Remove all of the project comments from the pug templates. Double check them all.
+//TODO: Add a filter to my originally sized picture then resize it.
+
 
 /*TODO: Complete your Pug Files
     - Go through each of the four Pug templates to inject your data.
