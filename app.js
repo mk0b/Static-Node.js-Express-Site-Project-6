@@ -1,5 +1,4 @@
 //TODO: Put an intro comment up here like I have in the other projects.
-//TODO: Exceeds - Set up your package.json file so taht running npm start will run the app.
 //TODO: Exceeds - Add my own styling - don't change main positioning of app.
 //TODO: Test, test, test.
 //TODO: Fill out read.me in the new good way.
@@ -7,7 +6,7 @@
 //TODO: Fix how the 550 by 550 square index project images look.
 //TODO: Remove all of the project comments from the pug templates. Double check them all.
 //TODO: Add a filter to my originally sized picture then resize it.
-
+//TODO: Make a note in the subission comments that I set npm start to use nodemon and I saved it locally to the project as a dev dep.
 
 /*TODO: Complete your Pug Files
     - Go through each of the four Pug templates to inject your data.
