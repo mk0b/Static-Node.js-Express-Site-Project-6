@@ -3,7 +3,6 @@
 //Setting reqs for this file
 const express = require('express');
 const router = express.Router();
-//ES6 Way of saying projects = data.project
 const {projects} = require('../data.json');
 
 
@@ -29,10 +28,6 @@ router.get('/', (req, res) => {
 
 router.get('/about', (req, res) => {
     res.render('about');
-});
-
-router.get('/project', (req, res) => {
-    res.render('project', { projects });
 });
 
 //TODO: Use the project.js file again and make each project/id a route 

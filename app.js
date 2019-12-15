@@ -7,7 +7,7 @@
 //TODO: Add a route for /skills or something and take TTH data and display my profile info?
 //TODO: Put a sad cartoon panda on my friendly error page? haha
 //TODO: Fix the image problem!! All templates most likely.
-
+//TODO: Remove all of the project comments from the pug templates. Double check them all.
 
 /*TODO: Complete your Pug Files
     - Go through each of the four Pug templates to inject your data.
@@ -37,7 +37,7 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use('/static', express.static('public'));
 app.use(mainRoutes);
 app.use(errorHandling);
-//app.use('/project', projectRoutes);
+app.use('/project', projectRoutes);
 
 //Setting up Server
 app.listen(3000, () => {
