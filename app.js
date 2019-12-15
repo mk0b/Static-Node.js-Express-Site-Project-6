@@ -14,8 +14,6 @@
     The Pug files contain comments that detail each change you will need to make.
     TODO: Delete the helper comments in the pug file when done.
     - Leave the example html so reviewer can reference them.
-    TODO: adding a target attribute set to _blank on the a tags for the live links 
-    to your projects so that they open in a new window.
  */
 
 
@@ -35,6 +33,7 @@ app.set('view engine', 'pug');
 app.use(bodyParser.urlencoded({ extended: false}));
 //serving my static files
 app.use('/static', express.static('public'));
+app.use('/images', express.static('img'));
 app.use(mainRoutes);
 app.use(errorHandling);
 app.use('/project', projectRoutes);

@@ -12,9 +12,15 @@
             "live_link": "https://mk0b.github.io/Random-Quote-Generator-Project-1/",
             "github_link": "https://github.com/mk0b/Random-Quote-Generator-Project-1",
             "img_urls": [
-                "../img/project1_main",
-                "../img/project1_image_1",
-                "../img/project1_image_2"
+                {
+                    "main": "/images/project1_main"
+                },
+                {
+                    "project_imgs": [
+                        "/images/project1_image_1",
+                        "/images/project1_image_2"
+                    ]
+                }
             ]
         },
         {
@@ -29,9 +35,15 @@
             "live_link": "https://mk0b.github.io/List-Pagination-and-Filtering-Project-2/",
             "github_link": "https://github.com/mk0b/List-Pagination-and-Filtering-Project-2",
             "img_urls": [
-                "../img/project2_main",
-                "../img/project2_1page",
-                "../img/project3_2page"
+                {
+                    "main": "/images/project2_main"
+                },
+                {
+                    "project_imgs": [
+                        "/images/project2_1page",
+                        "/images/project3_2page"
+                    ]
+                }
             ]
         },
         {
@@ -47,10 +59,16 @@
             "live_link": "https://mk0b.github.io/Interactive-Form-Project-3/",
             "github_link": "https://github.com/mk0b/Interactive-Form-Project-3",
             "img_urls": [
-                "../img/project3_main",
-                "../img/project3_allvalidations",
-                "../img/project3_formselection",
-                "../img/project3_realtimevalidation"
+                {
+                    "main": "/images/project3_main"
+                },
+                {
+                    "project_imgs": [
+                        "/images/project3_allvalidations",
+                        "/images/project3_formselection",
+                        "/images/project3_realtimevalidation"
+                    ] 
+                }
             ]
         },
         {
@@ -65,11 +83,17 @@
             "live_link": "https://mk0b.github.io/OOP-Game-Show-Project-4/",
             "github_link": "https://github.com/mk0b/OOP-Game-Show-Project-4",
             "img_urls": [
-                "../img/project4_main",
-                "../img/project4_blankgame",
-                "../img/project4_duringgame",
-                "../img/project4_winscreen",
-                "../img/loosescreen"
+                {
+                    "main": "/images/project4_main"
+                },
+                {
+                    "project_imgs": [
+                        "/images/project4_blankgame",
+                        "/images/project4_duringgame",
+                        "/images/project4_winscreen",
+                        "/images/loosescreen"
+                    ]
+                }
             ]
         },
         {
@@ -84,10 +108,16 @@
             "live_link": "https://mk0b.github.io/Public-API-Requests-Project-5/",
             "github_link": "https://github.com/mk0b/Public-API-Requests-Project-5",
             "img_urls": [
-                "../img/project5_main",
-                "../img/project5_gallerysearch",
-                "../img/project5_modal",
-                "../img/project5_noresultssearch"
+                {
+                    "main": "/images/project5_main"
+                },
+                {
+                    "project_imgs": [
+                        "/images/project5_gallerysearch",
+                        "/images/project5_modal",
+                        "/images/project5_noresultssearch"
+                    ]
+                }
             ]
         }
     ]
