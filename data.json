@@ -41,7 +41,7 @@
                 {
                     "project_imgs": [
                         "/images/project2_1page.png",
-                        "/images/project3_2page.png"
+                        "/images/project2_2page.png"
                     ]
                 }
             ]
@@ -91,7 +91,7 @@
                         "/images/project4_blankgame.png",
                         "/images/project4_duringgame.png",
                         "/images/project4_winscreen.png",
-                        "/images/loosescreen.png"
+                        "/images/project4_loosescreen.png"
                     ]
                 }
             ]
