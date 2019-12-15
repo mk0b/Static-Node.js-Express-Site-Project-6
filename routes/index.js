@@ -22,7 +22,6 @@ const {projects} = require('../data.json');
 //TODO: Add locals/variables for pug templates
 
 router.get('/', (req, res) => {
-    console.log(projects);
     res.render('index', { projects });
 });
 

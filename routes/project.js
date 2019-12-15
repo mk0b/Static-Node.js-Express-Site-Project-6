@@ -23,6 +23,7 @@ router.get('/:id', (req, res) => {
                 github_link: project.github_link,
                 img_urls: project.img_urls
              };
+             console.log(project.img_urls.main);
             res.render('project', currentProject);
         }
     });
