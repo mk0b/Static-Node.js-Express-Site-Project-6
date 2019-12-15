@@ -1,12 +1,10 @@
 //TODO: Put an intro comment up here like I have in the other projects.
-//TODO: Organize my files into well named separate js files and export them/require them in this file.
 //TODO: Exceeds - Set up your package.json file so taht running npm start will run the app.
 //TODO: Exceeds - Add my own styling - don't change main positioning of app.
 //TODO: Test, test, test.
 //TODO: Fill out read.me in the new good way.
 //TODO: Add a route for /skills or something and take TTH data and display my profile info?
-//TODO: Put a sad cartoon panda on my friendly error page? haha
-//TODO: Fix the image problem!! All templates most likely.
+//TODO: Fix how the 550 by 550 square index project images look.
 //TODO: Remove all of the project comments from the pug templates. Double check them all.
 
 /*TODO: Complete your Pug Files

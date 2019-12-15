@@ -15,6 +15,9 @@
 //error.status
 //error.stack
 
+//TODO: Put a sad cartoon panda on my friendly error page? haha
+
+
 
 const express = require('express');
 const router = express.Router();
