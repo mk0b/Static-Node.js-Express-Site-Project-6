@@ -18,7 +18,7 @@ router.get('/:id', (req, res) => {
                 technologies: project.technologies,
                 live_link: project.live_link,
                 github_link: project.github_link,
-                img_urls: project.img_urls
+                image_urls: project.image_urls
             };
             res.render('project', currentProject);
         }
