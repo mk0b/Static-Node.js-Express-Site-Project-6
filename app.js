@@ -6,6 +6,7 @@
 //TODO: Fill out read.me in the new good way.
 //TODO: Add a route for /skills or something and take TTH data and display my profile info?
 //TODO: Put a sad cartoon panda on my friendly error page? haha
+//TODO: Fix the image problem!! All templates most likely.
 
 
 /*TODO: Complete your Pug Files
@@ -24,6 +25,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mainRoutes = require('./routes');
 const errorHandling = require('./routes/errors');
+const projectRoutes = require('./routes/project');
 
 //Creating a new express app
 const app = express();
@@ -35,6 +37,7 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use('/static', express.static('public'));
 app.use(mainRoutes);
 app.use(errorHandling);
+//app.use('/project', projectRoutes);
 
 //Setting up Server
 app.listen(3000, () => {

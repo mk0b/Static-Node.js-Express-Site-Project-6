@@ -3,9 +3,10 @@
 //Setting reqs for this file
 const express = require('express');
 const router = express.Router();
-const data = require('../data.json');
 //ES6 Way of saying projects = data.project
-const {projects} = data;
+const {projects} = require('../data.json');
+
+
 
 
 /* TODO: Setup your routes and middleware
@@ -22,7 +23,8 @@ const {projects} = data;
 //TODO: Add locals/variables for pug templates
 
 router.get('/', (req, res) => {
-    res.render('index');
+    console.log(projects);
+    res.render('index', { projects });
 });
 
 router.get('/about', (req, res) => {
@@ -30,8 +32,9 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/project', (req, res) => {
-    res.render('project');
+    res.render('project', { projects });
 });
+
 
 //This allows us to export and use in app.js | Keep at bottom
 module.exports = router;
