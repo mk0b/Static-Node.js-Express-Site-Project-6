@@ -1,6 +1,17 @@
 # Static-Node.js-Express-Site-Project-6
  Megan Katherine O'Brien's Static Node.js and Express Site Project 6 as a TeamTreehouse FullStack JavaScript TalentPath Student
 
+Grading Note: Going for Exceeds Only
+
+Project Description: A static Node.js and Express portfolio website.
+
+Project Features:
+
+- / index route with a list of projects that you can click into.
+- /about route that has more information about me.
+- /project/id routes for each project's specific information.
+- error handling with an error template.
+
 Styling Changes
 
 - I updated the paragraph text color to be a slightly darker gray in styles.css
