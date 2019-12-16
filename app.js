@@ -28,7 +28,7 @@ app.use('/images', express.static('img'));
 app.use(mainRoutes);
 app.use(errorHandling);
 app.use('/project', projectRoutes);
-app.use(errorHandling);
+//app.use(errorHandling);
 
 
 //Setting up Server
