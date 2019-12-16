@@ -52,26 +52,26 @@ a:hover{
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   line-height: 0;
 }
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
-  color: #fff;
+  background: #646483;
+  color: rgb(201, 222, 241);
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgb(218, 230, 240);
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: rgb(121, 152, 211);
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
