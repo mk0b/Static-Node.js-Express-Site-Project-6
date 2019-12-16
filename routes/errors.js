@@ -4,7 +4,7 @@ const router = express.Router();
 
 //this makes it so that any route that is not defined will pass through a defined error.
 router.all('*', (req, res, next) => {
-    const err = new Error('Page not found.');
+    const err = new Error('Page not found!');
     err.status = 404;
     console.log(`Something went wrong. Status: ${err.status}, Message: ${err.message}, Stack: ${err.stack}`)
     next(err);
