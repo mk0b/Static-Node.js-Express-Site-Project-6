@@ -7,15 +7,7 @@
 //TODO: Remove all of the project comments from the pug templates. Double check them all.
 //TODO: Add a filter to my originally sized picture then resize it.
 //TODO: Make a note in the subission comments that I set npm start to use nodemon and I saved it locally to the project as a dev dep.
-
-/*TODO: Complete your Pug Files
-    - Go through each of the four Pug templates to inject your data.
-    The Pug files contain comments that detail each change you will need to make.
-    TODO: Delete the helper comments in the pug file when done.
-    - Leave the example html so reviewer can reference them.
- */
-
-
+//TODO: Clean up comments
 
 //app.js requirements including other files I created to use in app.js
 const express = require('express');

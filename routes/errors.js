@@ -9,16 +9,6 @@
     - Refer to the video on Error handling Middleware, which is linked in the project resources list.
 */
 
-//TODO: Exceeds - Use error handling middleware to render a Pug template
-//Create a new Pug template in the views folder and name it error.pug. This Pug file should extend the layout, be set to block content, and display the error.message, error.status, and error.stack properties.
-//When the request URL is for a non-existent route, the error.pug template should be displayed in the browser along with the following properties:
-//error.message
-//error.status
-//error.stack
-
-//TODO: Put a sad cartoon panda on my friendly error page? haha
-
-
 const express = require('express');
 const router = express.Router();
 
@@ -28,7 +18,6 @@ router.all('*', (req, res, next) => {
     next(err);
 });
 
-//error handling
 router.use((err, req, res, next) => {
     res.locals.error = err;
     res.render('error');
