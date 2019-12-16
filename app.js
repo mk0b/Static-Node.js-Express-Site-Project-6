@@ -21,8 +21,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mainRoutes = require('./routes');
-const errorHandling = require('./routes/errors');
 const projectRoutes = require('./routes/project');
+const errorHandling = require('./routes/errors');
 
 //Creating a new express app
 const app = express();
@@ -36,8 +36,11 @@ app.use('/images', express.static('img'));
 app.use(mainRoutes);
 app.use(errorHandling);
 app.use('/project', projectRoutes);
+app.use(errorHandling);
+
 
 //Setting up Server
+//middleware will get triggered by "next()" an error getting thrown else where?
 app.listen(3000, () => {
     console.log('Magic is happening on localhost:3000.');
 });

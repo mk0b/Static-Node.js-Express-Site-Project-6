@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+    h1 Uh oh, something went wrong.
+    img(src="/images/panda_error.jpg") 
+    h2=`${error.message}`
+    h3=`Status: ${error.status}`
+        br
+        br
+        p=`Stack: ${error.stack}`
