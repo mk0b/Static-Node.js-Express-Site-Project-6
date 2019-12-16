@@ -9,7 +9,7 @@
 //TODO: Make a note in the subission comments that I set npm start to use nodemon and I saved it locally to the project as a dev dep.
 //TODO: Clean up comments
 
-//app.js requirements including other files I created to use in app.js
+//app.js requirements to be able to run app
 const express = require('express');
 const bodyParser = require('body-parser');
 const mainRoutes = require('./routes');
@@ -19,7 +19,7 @@ const errorHandling = require('./routes/errors');
 //Creating a new express app
 const app = express();
 
-//Setting and using some items for the app.
+//Setting and using some items for the app including my other files.
 app.set('view engine', 'pug');
 app.use(bodyParser.urlencoded({ extended: false}));
 //serving my static files
@@ -32,7 +32,6 @@ app.use(errorHandling);
 
 
 //Setting up Server
-//middleware will get triggered by "next()" an error getting thrown else where?
 app.listen(3000, () => {
     console.log('Magic is happening on localhost:3000.');
 });

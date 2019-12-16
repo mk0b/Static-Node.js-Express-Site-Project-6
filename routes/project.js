@@ -7,6 +7,9 @@ router.get('/', (req, res) => {
     res.redirect('/');
 });
 
+//when a /project/id is sent through the request this converts the projects object
+//to an array and then goes through and gets the current projects data to use
+//in the pug template.
 router.get('/:id', (req, res) => {
     const {id} = req.params;
     const projectsArray = Object.values(projects);
